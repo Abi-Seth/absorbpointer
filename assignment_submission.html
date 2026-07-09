@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flutter Assignment Submission</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: #eef3f8;
+        color: #1b1f24;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 40px auto;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 18px;
+        box-shadow: 0 12px 40px rgba(18, 38, 63, 0.12);
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+        color: #0f3d66;
+      }
+
+      h1 {
+        margin-bottom: 24px;
+      }
+
+      p,
+      li {
+        line-height: 1.6;
+      }
+
+      ul,
+      ol {
+        padding-left: 22px;
+      }
+
+      .label {
+        font-weight: 700;
+      }
+
+      .placeholder {
+        display: inline-block;
+        padding: 8px 12px;
+        background: #f3f7fb;
+        border: 1px dashed #8aa6c1;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Flutter Assignment Submission</h1>
+
+      <h2>Student</h2>
+      <p><span class="label">Name:</span> Seth</p>
+
+      <h2>Application Summary</h2>
+      <p>
+        This project is a small Flutter demo of <code>AbsorbPointer</code>. The app
+        shows a button that only responds when the absorbing state is turned off,
+        which makes it useful for demonstrating how to disable taps during loading
+        or processing states.
+      </p>
+
+      <h2>Widget Demo</h2>
+      <p>
+        The live demo has one real-world use case: temporarily blocking
+        interaction while a task is active. The button label and status text make
+        it easy to see the widget behavior on screen.
+      </p>
+
+      <h2>Three Attributes</h2>
+      <ol>
+        <li>
+          <span class="label">absorbing</span> controls whether the wrapped
+          button receives pointer input. When it is true, taps are blocked.
+        </li>
+        <li>
+          <span class="label">child</span> defines the widget being protected by
+          <code>AbsorbPointer</code>. In this app, the child is the
+          <code>ElevatedButton</code> labeled <strong>Click Me</strong>.
+        </li>
+        <li>
+          <span class="label">ignoringSemantics</span> controls whether
+          accessibility semantics are also absorbed along with pointer events.
+        </li>
+      </ol>
+
+      <h2>Run Instructions</h2>
+      <ol>
+        <li>Install Flutter dependencies with <code>flutter pub get</code>.</li>
+        <li>Launch the app with <code>flutter run</code>.</li>
+        <li>Press <strong>Enable Tap</strong> or <strong>Disable Tap</strong> to switch the button between blocked and active states.</li>
+      </ol>
+
+      <h2>Screenshot</h2>
+      <p>
+        <img src="absorbpointer_demo_screenshot.svg" alt="AbsorbPointer demo screenshot" style="max-width: 100%; border-radius: 14px; border: 1px solid #c3d5e4;" />
+      </p>
+
+      <h2>Demo Video</h2>
+      <p>
+        <span class="label">Video link:</span>
+        <span class="placeholder">PASTE_YOUR_WORKING_VIDEO_LINK_HERE</span>
+      </p>
+
+      <h2>Notes</h2>
+      <p>
+        The repository now matches the actual classroom demo instead of the
+        starter Hello World description, so the README and submission text are
+        ready to share with the project.
+      </p>
+    </main>
+  </body>
+</html>
