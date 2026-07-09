@@ -18,9 +18,9 @@ This project brings a tiny Flutter demo that shows how `AbsorbPointer` can block
 
 ## Screenshot
 
-![AbsorbPointer demo screenshot](app_screen.svg)
+![AbsorbPointer demo screenshot](app_screen.png)
 
-![AbsorbPointer run screenshot](enumerator_run.svg)
+![AbsorbPointer run screenshot](enumerator_run.png)
 
 ## Demo Notes
 
