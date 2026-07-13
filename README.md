@@ -25,3 +25,5 @@ This project brings a tiny Flutter demo that shows how `AbsorbPointer` can block
 ## Demo Notes
 
 The screen shows a button labeled **Click Me**, a status message that changes between disabled and enabled, and a control button that toggles the absorbing state.
+
+# Presented On: 8th July 2026
